@@ -23,3 +23,21 @@ console.log(booleanIsLoggedIn);
 // 0 = false 
 // "" = false 
 // "mayank" = true
+
+//***************operations******************** **************
+
+let value = 3
+let negValue = -value
+console.log(negValue); // result will be -3
+
+let str1 = "hello"
+let str2 = " mayank"
+
+let str3 = str1 + str2 
+
+console.log(str3); // result will be hello mayank 
+
+console.log("1" + 2 ); // result will be 12 
+console.log(1 + "2"); // result is 12
+console.log("1" + 2 + 3); // result is 123
+console.log(1 + 2 + "3"); // result is 33     - important 
