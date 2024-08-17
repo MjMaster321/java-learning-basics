@@ -34,3 +34,32 @@ console.log(Obj);           // will give the same result as above
 console.log(Object.keys(tinderUser)); //    [ 'id', 'name', 'isLoggedIn' ]  ---- **** ---- IMPORTANT
 console.log(Object.values(tinderUser)); //   [ '123abc', 'Mayank', false ]
 
+//******************destructure***********************
+
+const course = {
+    courseName: "JS in hindi", 
+    coursefee: 999, 
+    courseTeacher: "Hitesh Sir"
+}
+// course.courseTeacher
+
+const{courseTeacher} = course
+console.log(courseTeacher);           // Hitesh Sir
+
+const{courseTeacher: teacher} = course
+console.log(teacher);                 // Hitesh sir
+
+// after you see such curly braces this side ; understood that it is for destucturing
+
+// api *************
+//{
+//    "name": "Mayank",
+//      "course": "JS in hindi", 
+//      "price": "free", 
+//}                                                - this is how api is 
+
+[
+    {}, 
+    {}, 
+    {}, 
+]                        // api could also be in the array format 
